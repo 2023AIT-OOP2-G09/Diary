@@ -1,7 +1,6 @@
 from diaries.AbstractDiary import AbstractDiary
 
-
-class ShibataDiary(AbstractDiary):
+class ShibataToaDiary(AbstractDiary):
     def get_date(self):
         return "2023-12-14"
 
