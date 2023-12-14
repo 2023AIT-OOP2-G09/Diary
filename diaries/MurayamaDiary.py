@@ -1,6 +1,6 @@
 from diaries.AbstractDiary import AbstractDiary
 
-class DiarySample (AbstractDiary):
+class MurayamaDiary (AbstractDiary):
     def get_date (self):
         return "2023-12-14"
     

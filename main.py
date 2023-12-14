@@ -1,5 +1,5 @@
 from diaries.DiarySample import DiarySample
-from diaries.DiarySample import MurayamaDiary
+from diaries.MurayamaDiary import MurayamaDiary
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [
     DiarySample(), 
