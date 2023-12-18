@@ -6,6 +6,7 @@ from diaries.FujitaDiary import FujitaDiary
 from diaries.TakemotoDiary import TakemotoDiary
 from diaries.shibataDiary import shibataDiary
 from diaries.MurayamaDiary import MurayamaDiary
+from diaries.satoruDiary import satoruDiary
 
 diaries = [
     DiarySample(),
@@ -16,6 +17,7 @@ diaries = [
     MurayamaDiary(),
     ShibataToaDiary(),
     GotoDiary(),
+    satoruDiary(),
 ]
 
 for d in diaries:
